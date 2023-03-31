@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const url = require("url");
 const PUBLIC_DIRECTORY = path.join(__dirname, "../public");
-const PORT = 8000;
+const PORT = 9000;
 
 const renderHTML = (path, res) => {
     fs.readFile(path, (err, data) => {
